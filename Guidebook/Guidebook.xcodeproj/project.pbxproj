@@ -16,6 +16,7 @@
 		EE59A38C2C0E9CA0009B7AB7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59A38B2C0E9CA0009B7AB7 /* DataService.swift */; };
 		EE59A38E2C0E9CF8009B7AB7 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59A38D2C0E9CF8009B7AB7 /* City.swift */; };
 		EE59A3902C0E9D58009B7AB7 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59A38F2C0E9D58009B7AB7 /* Attraction.swift */; };
+		EE7DB5202C195122002BEA1D /* DemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7DB51F2C195122002BEA1D /* DemoData.json */; };
 		EEB3A0DD2C129BDC00690991 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB3A0DC2C129BDC00690991 /* CityCard.swift */; };
 		EEB3A0DF2C12A63700690991 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB3A0DE2C12A63700690991 /* AttractionRow.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		EE59A38B2C0E9CA0009B7AB7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EE59A38D2C0E9CF8009B7AB7 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		EE59A38F2C0E9D58009B7AB7 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		EE7DB51F2C195122002BEA1D /* DemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DemoData.json; path = Assets.xcassets/DemoData.json; sourceTree = "<group>"; };
 		EEB3A0DC2C129BDC00690991 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
 		EEB3A0DE2C12A63700690991 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				EE59A38F2C0E9D58009B7AB7 /* Attraction.swift */,
 				EEB3A0DC2C129BDC00690991 /* CityCard.swift */,
 				EEB3A0DE2C12A63700690991 /* AttractionRow.swift */,
+				EE7DB51F2C195122002BEA1D /* DemoData.json */,
 			);
 			path = Guidebook;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE59A3812C0E9C25009B7AB7 /* Preview Assets.xcassets in Resources */,
+				EE7DB5202C195122002BEA1D /* DemoData.json in Resources */,
 				EE59A37E2C0E9C25009B7AB7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

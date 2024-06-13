@@ -7,8 +7,11 @@
 
 import Foundation
 
-struct City : Identifiable {
-    var id = UUID ()
+struct City : Identifiable,Decodable {
+    
+    //Let makes JSON ignore this key when trying to parse
+    let id = UUID ()
+    
     var name : String
     var summary : String
     //Name of Image Asset

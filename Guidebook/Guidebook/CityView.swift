@@ -30,10 +30,10 @@ struct CityView: View {
             }
             
             .onAppear{
-                cities = dataService.getData()
+                cities = dataService.getFileData()
             }
             
-        }
+        } 
     }
 }
 
